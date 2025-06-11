@@ -1,49 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>My Website</title>
-    <link rel="stylesheet" type:"text/css" href="style.css" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airduino</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
 
-  <body>
-    <nav id="navbar">
-      <div class="container">
-        <ul>
-          <li><a href="#">Airduino</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Milestones</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
+    <section id="navbar">
+    <nav>
+      <ul>
+        <li><img id="img" src="image.png"></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#project-description">Project Description</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#final-prototype">Final Prototype</a></li>
+        <li><a href="#our-journey">Our Journey</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
+      </ul>
     </nav>
+    </section>
 
-    <nav id="about">
-      <div class="container">
-        <div>
-          <h2>Project Description</h2>
-          <p>
-            Create a working drone from scratch. The second phase goal is to
-            create a charging station that enables wireless charging. The third
-            phase goal is optimizing the drone /adding more practical features
-            to the drone. With this, we aim to create a drone that has
-            multipurpose, particularly indoors, including FPV, self-charging,
-            patrolling, etc.
-          </p>
+    <div id="header-container">
+        <div class="text-content">
+            <header id="header">
+                <h1>Airduino</h1>
+            </header>
+            <h2 id="tp">tinkering project</h2>
         </div>
+        
+        <div class="image-content">
+            <img id="img2" src="image2.png">
+        </div>
+    </div>
+    
+    <section id="project-description">
+        <h2>Project Description</h2>
+        <p>"Airduino is a palm-sized Arduino-powered drone 
+            built from scratch. Our goal is to make it <strong>modular</strong>, 
+            <strong>self-charging</strong>, and <strong>perfect for indoor use</strong>."</p>
+    </section>
+    
+    <div id="how-it-works">
+          <h2>How it</h2>
+          <h1>Works</h1>
+        </div>
+        
+        <div class="diagram-content">
+        </div>
+    </div>
 
-        <div>
-          <h2>Project Description</h2>
-          <p>
-            Create a working drone from scratch. The second phase goal is to
-            create a charging station that enables wireless charging. The third
-            phase goal is optimizing the drone /adding more practical features
-            to the drone. With this, we aim to create a drone that has
-            multipurpose, particularly indoors, including FPV, self-charging,
-            patrolling, etc.
-          </p>
-        </div>
-      </div>
-    </nav>
-  </body>
+    
+
+
 </html>
